@@ -15,7 +15,7 @@ class UserTableSeeder extends Seeder {
 	public function run()
 	{
 	     $this->createAdmin();
-         $this->createUsers(50);
+             $this->createUsers(50);
 		 
 	}
 

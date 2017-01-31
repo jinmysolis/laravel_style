@@ -14,7 +14,8 @@ class TicketsController extends Controller {
 	 */
 	public function latest()
 	{
-            dd('latest');
+            
+          return view('tickets.lista');
 	}
 
 	public function popular()
